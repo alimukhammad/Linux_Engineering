@@ -13,6 +13,7 @@
 4
   Device drivers: Device drivers are programs that allow the kernel to communicate with hardware devices 
   such as network cards, disk drives, and printers. They provide an abstraction layer between the hardware and the kernel.
+  
 5
   System libraries: System libraries are collections of pre-compiled code that provide common functions 
   and services to user-space programs. They include libraries for networking, graphics, and file handling.
