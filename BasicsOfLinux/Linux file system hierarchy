@@ -1,0 +1,40 @@
+The Linux file system hierarchy is a standardized directory structure used by Linux distributions to organize files and directories on a Linux system. 
+The hierarchy is organized as a tree structure, with the root directory ("/") at the top of the tree. Here is an overview of the main directories and their purposes:
+
+/bin: Contains essential user-level system utilities, such as the ls, cp, and mv commands.
+
+/boot: Contains the files needed to boot the system, such as the kernel, bootloader, and boot configuration files.
+
+/dev: Contains device files that represent hardware devices connected to the system, such as disks, terminals, and USB devices.
+
+/etc: Contains system configuration files, including those for system services and user accounts.
+
+/home: Contains user home directories, which typically store user-specific files and configurations.
+
+/lib: Contains system libraries needed to support essential system programs and utilities.
+
+/media: Contains mount points for removable media, such as USB drives and optical disks.
+
+/mnt: Contains mount points for temporary file systems, such as network file systems.
+
+/opt: Contains optional software packages installed on the system.
+
+/proc: Contains virtual files that provide information about system resources, such as memory usage, process information, and hardware information.
+
+/root: The home directory for the root user.
+
+/run: Contains runtime files, such as PID files and socket files, used by system services.
+
+/sbin: Contains system administration binaries, such as system daemons and system configuration tools.
+
+/srv: Contains data for system services provided by the system, such as FTP servers and HTTP servers.
+
+/sys: Contains virtual files that provide information about the system's hardware devices and their drivers.
+
+/tmp: Contains temporary files created by user applications and system processes.
+
+/usr: Contains user-related programs and libraries, such as user applications, system utilities, and development libraries.
+
+/var: Contains variable files that change during system operation, such as log files, system databases, and spool files.
+
+Understanding the Linux file system hierarchy is important for system administrators and users, as it provides a standardized way of organizing files and directories on a Linux system.
