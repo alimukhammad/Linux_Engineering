@@ -1,0 +1,29 @@
+The Linux command line interface (CLI) is a powerful and flexible way to interact with a Linux system. 
+Here are some key concepts and commands to understand when working with the Linux CLI:
+
+Shell: The shell is the program that provides the CLI. The most common shell used in Linux is Bash (Bourne-Again SHell), 
+but there are others available as well. The shell interprets commands and executes them.
+
+Prompt: The prompt is the text that appears in the CLI, indicating that the shell is ready for input. 
+The default prompt in Bash typically shows the username, hostname, and current working directory.
+
+Commands: Commands are instructions given to the shell to perform a specific task. Commands can be simple, 
+such as listing the contents of a directory (ls), or complex, such as manipulating system configurations or installing software.
+
+Arguments: Arguments are additional information provided to a command to modify its behavior or specify 
+what it should operate on. For example, the ls command can take an argument to specify which directory to list.
+
+Options: Options modify the behavior of a command. They are specified using a hyphen (-) followed by a letter or a word. 
+For example, the ls command can take the -l option to display additional information about each file.
+
+Wildcards: Wildcards are used to match patterns in filenames. The most common wildcards are the asterisk (*) and question mark (?). 
+For example, the command ls *.txt would list all files in the current directory with a .txt file extension.
+
+Pipes: Pipes (|) allow the output of one command to be sent as input to another command. For example, 
+the command ls -l | less would list the contents of a directory and display them one page at a time.
+
+Redirects: Redirects are used to send the output of a command to a file or to read input from a file. 
+The greater than symbol (>) is used to send output to a file, while the less than symbol (<) is used to read input from a file.
+
+These are just a few of the key concepts and commands used in the Linux CLI. By mastering the CLI, 
+you can perform a wide range of tasks on a Linux system quickly and efficiently.
