@@ -1,0 +1,22 @@
+1
+  Kernel: The kernel is the core component of the Linux system that interacts directly with the hardware. 
+  It manages resources such as memory, CPU, and input/output operations. It also provides interfaces for user-space programs to access the hardware.
+
+2
+  Shell: The shell is the interface between the user and the kernel. It provides a command-line interface 
+  (CLI) or graphical user interface (GUI) for the user to interact with the system. The shell interprets user commands and executes them.
+
+3
+  Filesystem: The filesystem is a hierarchical structure that organizes files and directories in the 
+  Linux system. It provides a way to access and manage data on disk or other storage devices.
+
+4
+  Device drivers: Device drivers are programs that allow the kernel to communicate with hardware devices 
+  such as network cards, disk drives, and printers. They provide an abstraction layer between the hardware and the kernel.
+5
+  System libraries: System libraries are collections of pre-compiled code that provide common functions 
+  and services to user-space programs. They include libraries for networking, graphics, and file handling.
+
+6
+  User-space programs: User-space programs are applications that run on top of the kernel. They interact 
+  with the kernel through system calls, which provide a way to access kernel services and resources.
