@@ -1,2 +1,18 @@
 TCP/IP (Transmission Control Protocol/Internet Protocol) is a set of communication protocols used for connecting devices on the internet. 
 It is a layered protocol, with each layer providing a specific set of services to the layers above and below it. Here are the key fundamentals of TCP/IP:
+
+IP Address: An IP address is a unique identifier assigned to each device on a network. IPv4 addresses are 32-bit numbers represented in dotted-decimal notation (e.g. 192.168.0.1), while IPv6 addresses are 128-bit numbers represented in hexadecimal notation (e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+Packet: A packet is a unit of data transmitted across a network. It consists of a header and a payload. The header contains information such as the source and destination IP addresses, while the payload contains the data being transmitted.
+
+Protocol: A protocol is a set of rules that governs how devices communicate on a network. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are transport layer protocols that provide reliable and unreliable delivery of packets, respectively. ICMP (Internet Control Message Protocol) is a network layer protocol used for diagnostic and error messages.
+
+Port: A port is a numbered endpoint of a communication channel on a device. TCP and UDP use port numbers to distinguish between different services running on the same device. Well-known ports (0-1023) are reserved for specific services, while ephemeral ports (1024-65535) are used for temporary connections.
+
+Socket: A socket is a combination of an IP address and a port number that uniquely identifies a connection between two devices. Sockets are used by applications to communicate with other devices on the network.
+
+Routing: Routing is the process of directing packets between devices on a network. Routers use routing tables to determine the best path for a packet to take based on the destination IP address.
+
+These are just a few of the key fundamentals of TCP/IP. By understanding these concepts, you can better understand how devices communicate on a network and troubleshoot networking issues.
+
+
