@@ -1,0 +1,35 @@
+Shell scripting is a powerful way to automate tasks in a Linux system. Here are some basic concepts and commands to get started with shell scripting:
+
+Shebang: The first line of a shell script should start with a shebang (#!), followed by the path to the interpreter that should be used to execute the script. For example, #!/bin/bash indicates that the Bash shell should be used to run the script.
+
+Variables: Variables are used to store data in a shell script. They can be created using the variable name followed by an equals sign (=), with the value assigned to the variable enclosed in quotes. For example, NAME="John" creates a variable called NAME with the value "John".
+
+Command substitution: Command substitution allows the output of a command to be used as the value of a variable or as an argument to another command. It is done by enclosing the command in parentheses and using the dollar sign ($) to indicate that the command should be executed. For example, DATE=$(date) would set the variable DATE to the current date and time.
+
+Conditional statements: Conditional statements are used to execute different commands depending on the outcome of a condition. The most common conditional statement is the if statement, which is followed by a condition in square brackets ([ ]) and a set of commands to execute if the condition is true. For example:
+
+bash
+------------------
+if [ "$NAME" == "John" ]
+then
+  echo "Hello John!"
+fi
+------------------
+Loops: Loops are used to execute a set of commands repeatedly. The most common loop is the for loop, which iterates over a list of items and executes a set of commands for each item. For example:
+bash
+------------------
+for i in 1 2 3 4 5
+do
+  echo "Number: $i"
+done
+------------------
+Functions: Functions are used to group a set of commands together and give them a name. They are defined using the function keyword, followed by the function name and a set of commands in curly braces. For example:
+bash
+-----------------
+function greet {
+  echo "Hello $1!"
+}
+
+greet "John"
+---------------
+These are just a few of the basic concepts and commands used in shell scripting. By mastering shell scripting, you can automate repetitive tasks and streamline your workflow in a Linux system.
